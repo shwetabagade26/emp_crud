@@ -17,4 +17,15 @@ git clone https://github.com/your-username/emp-crud-app.git
 cd emp-crud-app
 ```
 ### 2️⃣ Configure PostgreSQL
+```sh
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hrmdb?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    username: postgres # check for changes
+    password: 1234 # check for changes
+```
 ### 3️⃣ Build & Run
+```sh
+mvn clean install
+mvn spring-boot:run
+```
+
