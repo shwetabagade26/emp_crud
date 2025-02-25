@@ -23,9 +23,16 @@ cd emp-crud-app
     username: postgres # check for changes
     password: 1234 # check for changes
 ```
+- Next
+```sh
+psql -U your_db_user -d postgres -c "CREATE DATABASE employee_db;"
+```
 ### 3️⃣ Build & Run
 ```sh
 mvn clean install
 mvn spring-boot:run
 ```
+
+✅ Server Running At: http://localhost:8080
+✅ Swagger UI: http://localhost:8080/swagger-ui.html
 
