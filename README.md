@@ -13,7 +13,7 @@ A Spring Boot REST API for managing employees, using PostgreSQL for storage and 
 
 ### 1️⃣ Clone Repository & Navigate
 ```sh
-git clone https://github.com/your-username/emp-crud-app.git
+git clone https://github.com/shwetabagade26/emp_crud.git
 cd emp-crud-app
 ```
 ### 2️⃣ Configure PostgreSQL
